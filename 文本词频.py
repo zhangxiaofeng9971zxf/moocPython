@@ -1,4 +1,4 @@
-import jieba
+import jieba  #一个超级屌的第三方分中文的词库
 txt = open('三体.txt','r',encoding='utf-8').read()#打开三体.txt
 words = jieba.lcut(txt)
 delwords = {'一个'}
